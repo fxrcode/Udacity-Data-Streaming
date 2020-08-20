@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/fxrc/miniconda3/envs/mypy3/bin/python",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.explorerKind": "external",
+    "python.envFile": "${workspaceFolder}/Chicago-transit-authority/starter/.env"
+}
