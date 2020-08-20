@@ -29,6 +29,7 @@ $ python server.py
 (mypy3)
 ```
 * Screenshots (arrivals/turnstile change per 3 sec, temperature per 40 sec)
+![terminal](terminal.png)
 ![img1](cta-01.png)
 ![img1](cta-02.png)
 ![img1](cta-03.png)
