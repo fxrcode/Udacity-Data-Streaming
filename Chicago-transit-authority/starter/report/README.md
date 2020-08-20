@@ -1,6 +1,7 @@
 # Report: Chicago Transit Authority
 
 ## Final result
+* Fulfilled rubrics as in https://review.udacity.com/#!/rubrics/52/view
 * run `python simulation.py` in producer folder,
 ```log
 $ python simulation.py
