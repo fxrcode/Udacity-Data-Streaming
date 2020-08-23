@@ -2,7 +2,7 @@
 
 ## Java, Scala, Spark
 * Installed JDK, Scala via sdkman
-* Download Spark, untar, 755, and `export SPARK_HOME="/opt/spark-3.0.0-bin-hadoop3.2"` in `~/.zshrc` 
+* Download Spark, untar, 755, and `export SPARK_HOME="/opt/spark-3.0.0-bin-hadoop3.2"` in `~/.zshrc`, followed: http://www.mtitek.com/tutorials/bigdata/spark/install.php
 ```
 $ tar -xf ~/Downloads/spark-3.0.0-bin-hadoop3.2.tgz -C /opt/
 $ chmod -R 755 /opt/spark-3.0.0-bin-hadoop3.2
