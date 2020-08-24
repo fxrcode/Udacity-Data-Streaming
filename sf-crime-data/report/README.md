@@ -8,6 +8,7 @@
 * then `$ ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic "com.udacity.police-call" --from-beginning`
 
 ### Step 2
+* do spark-submit: `$ ${SPARK_HOME}/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.0 --master "local[*]" data_stream.py`. as in: https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html#deploying
 
 ## Start
 ```
