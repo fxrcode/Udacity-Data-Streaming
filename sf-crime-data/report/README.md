@@ -1,6 +1,20 @@
 # SF Crime Statistics with Spark Streaming
 
 ## Project Directions
+### Step 1
+* `producer_server.py` and `kafka_server.py`
+* then `kafka-console-consumer.sh` to check topic. Screenshot 1.
+* run `./kafka_server.py`
+* then `$ ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic "com.udacity.police-call" --from-beginning`
+
+### Step 2
+
+## Start
+```
+cd /home/fxrc/Tools/kafka_2.13-2.4.0/bin
+./zookeeper-server-start.sh ../config/zookeeper.properties
+./kafka-server-start.sh ../config/server.properties
+```
 
 ## Local development environment setup
 * Download Spark from https://spark.apache.org/downloads.html. Choose "Prebuilt for Apache Hadoop 2.7 and later."
